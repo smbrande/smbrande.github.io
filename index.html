@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <title>Scott Brandenburgs Projects</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <style>
+  html, body, h1, h2, h3 {font-family: 'Roboto', sans-serif;}
+  .w3-container{position: relative;}
+  .w3-image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  .w3-middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .w3-container:hover .w3-image {
+    opacity: 0.3;
+  }
+  .w3-container:hover .w3-middle {
+    opacity: 1;
+  }
+  .w3-text {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  </style>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="w3-top">
+      <div class="w3-bar w3-white w3-wide w3-padding">
+        <a href="index.html" class="w3-bar-item w3-button w3-hover-white w3-hover-text-grey w3-hide-small"> Scott Brandenburg | Mechanical Engineer</a>
+        <a href="index.html" class="w3-bar-item w3-button w3-hover-white w3-hover-text-grey w3-hide-medium w3-hide-large"> Scott Brandenburg</a>
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" 
+          href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu">
+          <i class="fa fa-bars"></i>
+        </a>
+        <div class="w3-right w3-hide-small">
+          <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-hover-text-grey w3-hide-small">All Projects</a>
+          <a href="MRover.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-hover-text-grey w3-hide-small">MRover</a>
+          <!--<a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-hover-text-grey w3-hide-small">About</a>
+          <a href="contact.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-hover-text-grey w3-hide-small">Contact</a>-->
+          <a href="resume.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-hover-text-grey w3-hide-small">Resume</a>
+        </div>
+      </div>
+      <!-- Navbar on small screens-->
+      <div id="navm" class="w3-wide w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top w3-RobotoSlab " 
+      style="margin-top:62px;z-index:3;width:250px;display:none;right:0;">
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">All Projects</a>
+        <a href="MRover.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MRover</a>
+        <!--<a href="about.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About</a>
+        <a href="contact.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>-->
+        <a href="resume.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Resume</a>
+      </div>
+    </nav>
+
+    <!--Personal / Collaborative Projects-->
+    <div class="w3-content w3-row-padding w3-center w3-wide w3-text-dark-grey " style="margin-top:83px;margin-bottom:83px;">
+      <h4 class="w3-wide w3-text-dark-grey">Personal / Collaborative Projects</h4><hr>
+      <!--1st column-->
+      <div class="w3-half">
+        <div class="w3-container w3-padding-32">
+          <a href="electric_coffee_grinder.html">
+          <img src="images/electric coffee grinder/main.jpg" alt="electric coffee grinder" class="w3-image ">
+          <div class="w3-middle">
+            <div class="w3-text">Electric Coffee Grinder</div>
+          </div></a>
+        </div>
+        <div class="w3-container">
+          <a href="pick_n_place_robot.html">
+          <img src="images/pick n place robot/robot_main.PNG" alt="pick n place robot" class="w3-image ">
+          <div class="w3-middle">
+            <div class="w3-text">Pick N Place Robot</div>
+          </div></a>
+        </div>
+      </div>
+      <!--2nd column-->
+      <div class="w3-half">
+        <div class="w3-container w3-padding-32">
+          <a href="RC_machine.html">
+          <img src="images/rmp/rmp.jpg" alt="Robotic Machine Player (RMP)" class="w3-image ">
+          <div class="w3-middle">
+            <div class="w3-text">Robot Machine Player (RMP)</div>
+          </div></a>
+        </div>
+        <div class="w3-container">
+          <a href="travel_mug.html">
+          <img src="images/travel mug/mug.jpg" alt="travel mug" class="w3-image ">
+          <div class="w3-middle">
+            <div class="w3-text">Electric Travel Mug</div>
+          </div></a>
+        </div>
+      </div>
+    </div>
+    
+    <!--Project Team Work-->
+    <div class="w3-content w3-row-padding w3-center w3-wide w3-text-dark-grey " style="margin-top:83px;margin-bottom:83px;">
+      <h4 class="w3-wide w3-text-dark-grey">Project Team Work</h4><hr>
+      <!--1st column-->
+      <div class="w3-half">
+        <div class="w3-container w3-padding-32">
+          <a href="encoder_encloser.html">
+          <img src="images/cycloid encoder housing/encoder_housing_main.PNG" alt="Encoder Housing" class="w3-image ">
+          <div class="w3-middle">
+            <div class="w3-text">Encoder Housing</div>
+          </div></a>
+        </div>
+      </div>
+      <!--2nd column-->
+      <div class="w3-half">
+        <div class="w3-container w3-padding-32">
+          <a href="slip_ring_test_rig.html">
+          <img src="images/slip ring test rig/slip_ring_test_rig_main.PNG" alt="Slip Ring Test Rig" class="w3-image ">
+          <div class="w3-middle">
+            <div class="w3-text">Slip Ring Test Rig</div>
+          </div></a>
+        </div>
+      </div>
+    </div>
+    
+    <script>
+
+      // menu toggle on small screens
+      function myFunction() 
+      {
+        var x = document.getElementById("navm");
+        if (x.className.indexOf("w3-show") == -1) 
+        {
+          x.className += " w3-show";
+        }     
+        else 
+        { 
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+      
+    </script>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-50 w3-light-grey w3-center w3-large"> 
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+    </footer>
+
+  </body>
+</html>

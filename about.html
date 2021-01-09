@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <title>Scott Brandenburgs About</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <style>
+    html, body, h1, h2, h3 {font-family: 'Roboto', sans-serif;}
+    .w3-row-padding img:hover {opacity: 0.6; transition: 0.2s }
+  </style>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="w3-top">
+      <div class="w3-bar w3-white w3-wide w3-padding">
+        <a href="index.html" class="w3-bar-item w3-button w3-hover-white w3-hover-text-grey w3-hide-small"> Scott Brandenburg | Mechanical Engineer</a>
+        <a href="index.html" class="w3-bar-item w3-button w3-hover-white w3-hover-text-grey w3-hide-medium w3-hide-large"> Scott Brandenburg</a>
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" 
+          href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu">
+          <i class="fa fa-bars"></i>
+        </a>
+        <div class="w3-right w3-hide-small">
+          <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-hover-text-grey w3-hide-small">All Projects</a>
+          <a href="MRover.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-hover-text-grey w3-hide-small">MRover</a>
+          <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-hover-text-grey w3-hide-small">About</a>
+          <a href="contact.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-hover-text-grey w3-hide-small">Contact</a>
+          <a href="resume.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-hover-text-grey w3-hide-small">Resume</a>
+        </div>
+      </div>
+      <!-- Navbar on small screens-->
+      <div id="navm" class="w3-wide w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top w3-RobotoSlab " 
+      style="margin-top:62px;z-index:3;width:250px;display:none;right:0;">
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">All Projects</a>
+        <a href="MRover.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MRover</a>
+        <a href="about.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About</a>
+        <a href="contact.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>
+        <a href="resume.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Resume</a>
+      </div>
+    </nav>
+
+    <!-- About section -->
+    <main class="w3-container w3-light-grey w3-padding-32 w3-padding-large" style="margin-top:83px;margin-bottom:83px;">
+      <div class="w3-content w3-text-dark-grey">
+      <!--
+        <div class="w3-half w3-padding">
+          <img src="images/personal_photo_2.jpg" alt="Me" class="w3-image w3-circle">
+        </div>-->
+
+        <div class="w3-padding"> <!--"w3-half" for photo included-->
+          <h3>About Me</h3>
+          <p>Some text about me. I love taking photos of PEOPLE. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <i class="fa fa-map-marker" style="width:30px"></i> Ann Arbor, Michigan<br>
+          <i class="fa fa-phone" style="width:30px"></i> Phone: 248-925-9683<br>
+          <i class="fa fa-envelope" style="width:30px"> </i> Email: smbrande@gmail.com<br>
+        </div>
+      </div>
+    </main>
+
+    <script>
+
+      // menu toggle on small screens
+      function myFunction() 
+      {
+        var x = document.getElementById("navm");
+        if (x.className.indexOf("w3-show") == -1) 
+        {
+          x.className += " w3-show";
+        }     
+        else 
+        { 
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+      
+    </script>
+
+  </body>
+</html>

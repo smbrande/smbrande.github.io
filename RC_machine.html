@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <title>Scott Brandenburgs RC Machine</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    html, body, h1, h2, h3 {font-family: 'Roboto', sans-serif;}
+    .w3-row-padding img:hover {opacity: 0.6; transition: 0.2s }
+  </style>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="w3-top">
+      <div class="w3-bar w3-white w3-wide w3-padding">
+        <a href="index.html" class="w3-bar-item w3-button w3-hover-white w3-hover-text-grey w3-hide-small"> Scott Brandenburg | Mechanical Engineer</a>
+        <a href="index.html" class="w3-bar-item w3-button w3-hover-white w3-hover-text-grey w3-hide-medium w3-hide-large"> Scott Brandenburg</a>
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" 
+          href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu">
+          <i class="fa fa-bars"></i>
+        </a>
+        <div class="w3-right w3-hide-small">
+          <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-hover-text-grey w3-hide-small">All Projects</a>
+          <a href="MRover.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-hover-text-grey w3-hide-small">MRover</a>
+          <!--<a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-hover-text-grey w3-hide-small">About</a>
+          <a href="contact.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-hover-text-grey w3-hide-small">Contact</a>-->
+          <a href="resume.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-hover-text-grey w3-hide-small">Resume</a>
+        </div>
+      </div>
+      <!-- Navbar on small screens-->
+      <div id="navm" class="w3-wide w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top w3-RobotoSlab " 
+      style="margin-top:62px;z-index:3;width:250px;display:none;right:0;">
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">All Projects</a>
+        <a href="MRover.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MRover</a>
+        <!--<a href="about.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About</a>
+        <a href="contact.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>-->
+        <a href="resume.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Resume</a>
+      </div>
+    </nav>
+
+    <!-- !PAGE CONTENT! -->
+    <main class="w3-content" style="margin-top:83px;margin-bottom:83px;">
+      <article class="w3-container">
+        <h3 class="w3-text-dark-grey">Robotic Machine Player (RMP) | Winter 2020</h3>
+        <p>In my Design and Manufacturing I course, I led a team of four fellow engineering students to design and manufacture an RC machine called a Robot Machine Player (RMP). Our RMP tasks were: To lift six cubes via a scoop, transport the cubes over a pyramid, then across a drawbridge, and finally, deposit the cubes into a goal. I used SolidWorks to Model the RMP and learned mill, lathe, and waterjet, to manufacture the assembly. At the end of the course, our team got the highest design review score in the class reviewed by the mechanical engineering faculty.</p>
+        <hr>
+      </article>
+
+      <section class="w3-row-padding">
+        <!--1st column-->
+        <div class="w3-half">
+          <img class="w3-image w3-padding-16" src="images/rmp/rmp.jpg" onclick="onClick(this)" alt="">
+          <img class="w3-image"               src="images/rmp/scoop.jpg" onclick="onClick(this)" alt="">
+          <img class="w3-image w3-padding-16" src="images/rmp/scoopfull.jpg" onclick="onClick(this)" alt="">
+          <img class="w3-image"               src="images/rmp/trans.jpg" onclick="onClick(this)" alt="">
+        </div>
+        <!--2nd column-->
+        <div class="w3-half">
+          <img class="w3-image w3-padding-16" src="images/rmp/axel.jpg" onclick="onClick(this)" alt="">
+          <img class="w3-image"               src="images/rmp/axelexplode.jpg" onclick="onClick(this)" alt="">
+          <img class="w3-image w3-padding-16" src="images/rmp/frontwheel.jpg" onclick="onClick(this)" alt="">
+          <img class="w3-image"               src="images/rmp/frontwheelexplode.jpg" onclick="onClick(this)" alt="">
+        </div>
+      </section>
+
+      <section class="w3-container">
+        <p>Below are 3D printed modifications we added: tabs on the outside to prevent the RMP from getting too close to walls. And a counterweight system for both the scoop and chassis plate.</p>
+        <hr>
+      </section>
+
+      <section class="w3-row-padding">
+        <!--1st column-->
+        <div class="w3-half">
+          <img class="w3-image w3-padding-16" src="images/rmp/3Dpartszoomout.jpg" onclick="onClick(this)" alt="">
+          <img class="w3-image"               src="images/rmp/3Dparts.jpg" onclick="onClick(this)" alt="">
+          <img class="w3-image w3-padding-16" src="images/rmp/weights.jpg" onclick="onClick(this)" alt="">
+        </div>
+        <!--2nd column-->
+        <div class="w3-half">
+          <img class="w3-image"               src="images/rmp/counterweight.jpg" onclick="onClick(this)" alt="">
+          <img class="w3-image w3-padding-16" src="images/rmp/counterweightdeployed.jpg" onclick="onClick(this)" alt="">
+        </div>
+      </section>
+
+
+        <!-- Modal for full size images with text on click-->
+        <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+          <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+          <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="img01" style="width: 90%">
+            <p id="caption"></p>
+          </div>
+        </div>
+
+    </main>
+
+     <!-- Footer -->
+    <footer class="w3-container w3-padding-50 w3-light-grey w3-center w3-large"> 
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+    </footer>
+
+    <script>      
+
+      // menu toggle on small screens
+      function myFunction() 
+      {
+        var x = document.getElementById("navm");
+        if (x.className.indexOf("w3-show") == -1) 
+        {
+          x.className += " w3-show";
+        }     
+        else 
+        { 
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+      
+      // Modal Image Gallery
+      function onClick(element) 
+      {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+      }   
+    </script>
+
+  </body>
+</html>
