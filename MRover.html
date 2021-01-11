@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <style>
-    html, body, h1, h2, h3 {font-family: 'Roboto', sans-serif;}
+    html, body, h1, h2, h3, h6 {font-family: 'Roboto', sans-serif;}
     .w3-container img:hover {opacity: 0.6; transition: 0.2s }
 
     .iframe-container {
@@ -20,7 +20,7 @@
   <body>
     <!-- Navbar -->
     <nav class="w3-top">
-      <div class="w3-bar w3-white w3-wide w3-padding">
+      <div class="w3-bar w3-light-grey w3-wide w3-padding">
         <a href="index.html" class="w3-bar-item w3-button w3-hover-white w3-hover-text-grey w3-hide-small"> Scott Brandenburg | Mechanical Engineer</a>
         <a href="index.html" class="w3-bar-item w3-button w3-hover-white w3-hover-text-grey w3-hide-medium w3-hide-large"> Scott Brandenburg</a>
         <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" 
@@ -36,7 +36,7 @@
         </div>
       </div>
       <!-- Navbar on small screens-->
-      <div id="navm" class="w3-wide w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top w3-RobotoSlab " 
+      <div id="navm" class="w3-bar-block w3-light-grey w3-hide w3-hide-large w3-hide-medium w3-top w3-RobotoSlab w3-border w3-border-grey"  
       style="margin-top:62px;z-index:3;width:250px;display:none;right:0;">
         <a href="index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">All Projects</a>
         <a href="MRover.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MRover</a>
@@ -46,7 +46,7 @@
       </div>
     </nav>
 
-    <!-- !PAGE CONTENT! --><!--encloser-->
+    <!-- !PAGE CONTENT! -->
     <main class="w3-content" style="margin-top:83px;margin-bottom:83px;">
       <div class="w3-center">
         <img src="images/MRover_Lucy_2020.jpg" alt="rover" class="w3-image">
@@ -127,9 +127,15 @@
 
     </main>
 
-     <!-- Footer -->
-    <footer class="w3-container w3-padding-50 w3-light-grey w3-center w3-large"> 
-      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+    <!-- Footer -->
+    <footer class="w3-bar w3-padding w3-center w3-light-grey " style="margin-top:40px;"> 
+      <div class="w3-hover-text-grey w3-hide-small">
+        <h6><b>Contact Me: </b><a href="mailto:smbrande@gmail.com" target="_blank">smbrande@gmail.com</a> || (248)-925-9683</h6>
+      </div> 
+      <div class="w3-hover-text-grey w3-hide-medium w3-hide-large">
+        <h6><b>Contact Me:</b></h6>
+        <h6><a href="mailto:smbrande@gmail.com" target="_blank">smbrande@gmail.com</a> || (248)-925-9683</h6>
+      </div>
     </footer>
 
     <script>      

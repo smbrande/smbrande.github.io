@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
   <style>
-  html, body, h1, h2, h3 {font-family: 'Roboto', sans-serif;}
+  html, body, h1, h2, h3, h6 {font-family: 'Roboto', sans-serif;}
   .w3-container{position: relative;}
   .w3-image {
     opacity: 1;
@@ -44,7 +44,7 @@
   <body>
     <!-- Navbar -->
     <nav class="w3-top">
-      <div class="w3-bar w3-white w3-wide w3-padding">
+      <div class="w3-bar w3-light-grey w3-wide w3-padding"> 
         <a href="index.html" class="w3-bar-item w3-button w3-hover-white w3-hover-text-grey w3-hide-small"> Scott Brandenburg | Mechanical Engineer</a>
         <a href="index.html" class="w3-bar-item w3-button w3-hover-white w3-hover-text-grey w3-hide-medium w3-hide-large"> Scott Brandenburg</a>
         <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" 
@@ -60,7 +60,7 @@
         </div>
       </div>
       <!-- Navbar on small screens-->
-      <div id="navm" class="w3-wide w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top w3-RobotoSlab " 
+      <div id="navm" class="w3-bar-block w3-light-grey w3-hide w3-hide-large w3-hide-medium w3-top w3-RobotoSlab w3-border w3-border-grey" 
       style="margin-top:62px;z-index:3;width:250px;display:none;right:0;">
         <a href="index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">All Projects</a>
         <a href="MRover.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MRover</a>
@@ -71,22 +71,23 @@
     </nav>
 
     <!--Personal / Collaborative Projects-->
-    <div class="w3-content w3-row-padding w3-center w3-wide w3-text-dark-grey " style="margin-top:83px;margin-bottom:83px;">
-      <h4 class="w3-wide w3-text-dark-grey">Personal / Collaborative Projects</h4><hr>
+    <div class="w3-content w3-row-padding w3-center w3-text-dark-grey" style="margin-top:40px;">
+      <h4 class="w3-wide w3-hide-small" style="margin-top:40px;">Personal / Collaborative Projects</h4>
+      <hr class="w3-hide-small">
       <!--1st column-->
       <div class="w3-half">
         <div class="w3-container w3-padding-32">
           <a href="electric_coffee_grinder.html">
           <img src="images/electric coffee grinder/main.jpg" alt="electric coffee grinder" class="w3-image ">
           <div class="w3-middle">
-            <div class="w3-text">Electric Coffee Grinder</div>
+            <div class="w3-text w3-wide">Electric Coffee Grinder</div>
           </div></a>
         </div>
         <div class="w3-container">
           <a href="pick_n_place_robot.html">
           <img src="images/pick n place robot/robot_main.PNG" alt="pick n place robot" class="w3-image ">
           <div class="w3-middle">
-            <div class="w3-text">Pick N Place Robot</div>
+            <div class="w3-text w3-wide">Pick N Place Robot</div>
           </div></a>
         </div>
       </div>
@@ -96,39 +97,40 @@
           <a href="RC_machine.html">
           <img src="images/rmp/rmp.jpg" alt="Robotic Machine Player (RMP)" class="w3-image ">
           <div class="w3-middle">
-            <div class="w3-text">Robot Machine Player (RMP)</div>
+            <div class="w3-text w3-wide">Robot Machine Player (RMP)</div>
           </div></a>
         </div>
         <div class="w3-container">
           <a href="travel_mug.html">
           <img src="images/travel mug/mug.jpg" alt="travel mug" class="w3-image ">
           <div class="w3-middle">
-            <div class="w3-text">Electric Travel Mug</div>
+            <div class="w3-text w3-wide">Electric Travel Mug</div>
           </div></a>
         </div>
       </div>
     </div>
     
     <!--Project Team Work-->
-    <div class="w3-content w3-row-padding w3-center w3-wide w3-text-dark-grey " style="margin-top:83px;margin-bottom:83px;">
-      <h4 class="w3-wide w3-text-dark-grey">Project Team Work</h4><hr>
+    <div class="w3-content w3-row-padding w3-center w3-text-dark-grey">
+      <h4 class="w3-wide w3-hide-small" style="margin-top:83px;">Project Team Work</h4>
+      <hr class="w3-hide-small">
       <!--1st column-->
       <div class="w3-half">
         <div class="w3-container w3-padding-32">
           <a href="encoder_encloser.html">
           <img src="images/cycloid encoder housing/encoder_housing_main.PNG" alt="Encoder Housing" class="w3-image ">
           <div class="w3-middle">
-            <div class="w3-text">Encoder Housing</div>
+            <div class="w3-text w3-wide">Encoder Housing</div>
           </div></a>
         </div>
       </div>
       <!--2nd column-->
       <div class="w3-half">
-        <div class="w3-container w3-padding-32">
+        <div class="w3-container">
           <a href="slip_ring_test_rig.html">
           <img src="images/slip ring test rig/slip_ring_test_rig_main.PNG" alt="Slip Ring Test Rig" class="w3-image ">
           <div class="w3-middle">
-            <div class="w3-text">Slip Ring Test Rig</div>
+            <div class="w3-text w3-wide">Slip Ring Test Rig</div>
           </div></a>
         </div>
       </div>
@@ -153,8 +155,14 @@
     </script>
 
     <!-- Footer -->
-    <footer class="w3-container w3-padding-50 w3-light-grey w3-center w3-large"> 
-      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+    <footer class="w3-bar w3-padding w3-center w3-light-grey " style="margin-top:40px;"> 
+      <div class="w3-hover-text-grey w3-hide-small">
+        <h6><b>Contact Me: </b><a href="mailto:smbrande@gmail.com" target="_blank">smbrande@gmail.com</a> || (248)-925-9683</h6>
+      </div> 
+      <div class="w3-hover-text-grey w3-hide-medium w3-hide-large">
+        <h6><b>Contact Me:</b></h6>
+        <h6><a href="mailto:smbrande@gmail.com" target="_blank">smbrande@gmail.com</a> || (248)-925-9683</h6>
+      </div>
     </footer>
 
   </body>
